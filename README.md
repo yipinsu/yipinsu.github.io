@@ -1,8 +1,14 @@
-# yipinsu.github.io
-Personal academic website of Yipin Su.
+# SU Research Group — homepage update v1.1
 
-## Deploy
-Upload all files in this package to the root of the `main` branch of `yipinsu/yipinsu.github.io`.
-GitHub Pages is configured to deploy from `main` / `(root)`.
+This package updates the homepage only while preserving the existing subpages.
 
-The empty `.nojekyll` file tells GitHub Pages to serve the static site directly.
+## Changes
+- Site brand changed to `SU Research Group`
+- Larger navigation, headings and body typography
+- Added Huanjiang Laboratory, Zhejiang University and Shaoxing University logos
+- Replaced homepage portrait with the newly supplied portrait
+- Rewrote About in Chinese + English, Chinese first
+- Justified About text
+- Improved responsive layout and spacing
+
+Upload the package contents to the root of `yipinsu/yipinsu.github.io`.
