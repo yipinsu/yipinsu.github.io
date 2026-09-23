@@ -801,3 +801,21 @@ html[lang="zh-CN"] .about-block {
   .section-index { position: static; }
   section[id] { scroll-margin-top: 20px; }
 }
+
+/* 首页题句：中文及出处用楷体；在此调整字号与间距。 */
+.home-motto { padding-top: 20px; padding-bottom: 25px; text-align: center; }
+.home-motto blockquote { margin: 0; }
+.home-motto .motto-cn, .home-motto cite {
+  font-family: KaiTi, STKaiti, "Kaiti SC", "楷体", "楷体_GB2312", serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.home-motto .motto-cn { margin: 0 0 8px; font-size: clamp(24px, 2.5vw, 32px); letter-spacing: .12em; line-height: 1.7; }
+.home-motto .motto-translation { margin: 0 auto 8px; max-width: 850px; font-family: Georgia, "Times New Roman", serif; font-size: 17px; line-height: 1.7; color: #53647b; }
+.home-motto cite { font-size: 18px; }
+.home-motto cite a { color: #666; }
+.home-motto .motto-source-en { font-family: Georgia, "Times New Roman", serif; font-size: 14px; }
+@media(max-width:560px) {
+  .home-motto .motto-cn { letter-spacing: .03em; font-size: 24px; }
+  .home-motto .motto-translation { font-size: 15px; }
+}
