@@ -802,3 +802,7 @@ section[id] {
   .home-motto .motto-cn { letter-spacing: .03em; font-size: 24px; }
   .home-motto .motto-translation { font-size: 15px; }
 }
+
+/* 期刊官网链接：保持正文颜色，以细下划线标识可点击。 */
+main a.journal-link { color: inherit; text-decoration: underline; text-decoration-color: #aab6c7; text-underline-offset: 3px; }
+main a.journal-link:hover, main a.journal-link:focus-visible { color: #234e9b; text-decoration-color: currentColor; }
