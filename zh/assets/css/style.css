@@ -765,6 +765,23 @@ section[id] {
   }
 }
 
+/* ===== Chinese mirror site typography ===== */
+html[lang="zh-CN"] body {
+  font-family: "Microsoft YaHei", "Noto Sans SC", "PingFang SC", Arial, sans-serif;
+}
+
+html[lang="zh-CN"] h1,
+html[lang="zh-CN"] .section-title,
+html[lang="zh-CN"] .card h3,
+html[lang="zh-CN"] .brand {
+  font-family: "Microsoft YaHei", "Noto Sans SC", "PingFang SC", Arial, sans-serif;
+}
+
+html[lang="zh-CN"] .about-block {
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
 /* Responsive bilingual header: keep both navigation and branding visible. */
 .nav { overflow: visible; }
 .nav-links { flex: 1 1 auto; flex-wrap: wrap; gap: 12px 20px; white-space: normal; }
