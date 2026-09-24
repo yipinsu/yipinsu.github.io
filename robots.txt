@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yipinsu.github.io/sitemap.xml
